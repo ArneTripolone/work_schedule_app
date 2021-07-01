@@ -37,7 +37,7 @@ textarea {
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: #77dd77;
   color: #000000;
   border-top: 1px dashed #000000;
 }
@@ -71,7 +71,8 @@ textarea {
 }
 
 input[type=text], select {
-  width: 100%;
+  display: flex;
+  width: 88%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -79,4 +80,15 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: border-box;
   background-color: transparent;
+}
+
+.btn {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }

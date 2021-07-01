@@ -17,7 +17,7 @@ var beginningTime1 = moment('13:00', 'h:mma');
 var endTime1 = moment('13:59', 'h:mma');
 
 var beginningTime2 = moment('14:00', 'h:mma');
-var endTime12 = moment('14:59', 'h:mma');
+var endTime2 = moment('14:59', 'h:mma');
 
 var beginningTime3 = moment('15:00', 'h:mma');
 var endTime3 = moment('15:59', 'h:mma');
@@ -32,73 +32,44 @@ var endTime5 = moment('17:59', 'h:mma');
 if ((moment().isAfter(endTime9)))
 {
     document.getElementById("nine").classList.add("past");
-
-}else {
-    document.getElementById("nine").classList.add("future");
 }
 
 if ((moment().isAfter(endTime10)))
 {
     document.getElementById("ten").classList.add("past");
-
-}else {
-    document.getElementById("ten").classList.add("future");
 }
 
 if ((moment().isAfter(endTime11)))
 {
     document.getElementById("eleven").classList.add("past");
-
-}else {
-    document.getElementById("eleven").classList.add("future");
 }
 
 if ((moment().isAfter(endTime12)))
 {
     document.getElementById("twelve").classList.add("past");
-
-}else {
-    document.getElementById("twelve").classList.add("future");
 }
 
 if ((moment().isAfter(endTime1)))
 {
     document.getElementById("one").classList.add("past");
-
-}else {
-    document.getElementById("one").classList.add("future");
 }
 
 if ((moment().isAfter(endTime2)))
 {
     document.getElementById("two").classList.add("past");
-
-}else {
-    document.getElementById("two").classList.add("future");
 }
 
 if ((moment().isAfter(endTime3)))
 {
     document.getElementById("three").classList.add("past");
-
-}else {
-    document.getElementById("three").classList.add("future");
 }
 
 if ((moment().isAfter(endTime4)))
 {
     document.getElementById("four").classList.add("past");
-
-}else {
-    document.getElementById("four").classList.add("future");
 }
 
 if ((moment().isAfter(endTime5)))
 {
     document.getElementById("five").classList.add("past");
-
-}else {
-    document.getElementById("five").classList.add("future");
 }
-
-
