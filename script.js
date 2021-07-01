@@ -1,8 +1,6 @@
 var time = moment().format("MMM Do, YYYY");
 $("#currentDay").text(time);
 
-const nine = document.getElementById('nine')
-
 var beginningTime9 = moment('9:00am', 'h:mma');
 var endTime9 = moment('9:59am', 'h:mma');
 
@@ -30,9 +28,76 @@ var endTime4 = moment('4:59pm', 'h:mma');
 var beginningTime5 = moment('5:00pm', 'h:mma');
 var endTime5 = moment('5:59pm', 'h:mma');
 
-console.log(moment().isBefore(endTime10));
-
-if ((moment().isBefore(endTime10)))
+if ((moment().isAfter(endTime9)))
 {
-    document.getElementById("ten").className = "past"
+    document.getElementById("nine").className = "past";
+
+}else {
+    document.getElementById("nine").className = "future";
 }
+
+if ((moment().isAfter(endTime10)))
+{
+    document.getElementById("ten").className = "past";
+
+}else {
+    document.getElementById("ten").className = "future";
+}
+
+if ((moment().isAfter(endTime11)))
+{
+    document.getElementById("eleven").className = "past";
+
+}else {
+    document.getElementById("eleven").className = "future";
+}
+
+if ((moment().isAfter(endTime12)))
+{
+    document.getElementById("twelve").className = "past";
+
+}else {
+    document.getElementById("twelve").className = "past";
+}
+
+if ((moment().isAfter(endTime1)))
+{
+    document.getElementById("one").className = "past";
+
+}else {
+    document.getElementById("one").className = "past";
+}
+
+if ((moment().isAfter(endTime2)))
+{
+    document.getElementById("two").className = "past";
+
+}else {
+    document.getElementById("two").className = "past";
+}
+
+if ((moment().isAfter(endTime3)))
+{
+    document.getElementById("three").className = "past";
+
+}else {
+    document.getElementById("three").className = "past";
+}
+
+if ((moment().isAfter(endTime4)))
+{
+    document.getElementById("four").className = "past";
+
+}else {
+    document.getElementById("four").className = "past";
+}
+
+if ((moment().isAfter(endTime5)))
+{
+    document.getElementById("five").className = "past";
+
+}else {
+    document.getElementById("five").className = "past";
+}
+
+
