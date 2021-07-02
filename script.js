@@ -125,3 +125,13 @@ if ((moment().isAfter(endTime5)))
 {
     document.getElementById("five").classList.add("past");
 }
+
+//function to save the value to local storage
+function save(){
+    var dataToSave = document.getElementById("myInput9").value;
+    localStorage.setItem("data", dataToSave);
+}
+
+window.onbeforeunload = function() {
+    localStorage.setItem("data", $('#myInput9').val());
+}
